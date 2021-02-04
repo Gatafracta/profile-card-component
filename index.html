@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,21 +19,40 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <img class="bg-pattern-top" src="images/bg-pattern-top.svg" alt="bg-pattern-top">
 
-  803K
-  Likes
+  <div class="main-container">
+    <div class="top-container">
+      <img class="bg-pattern-card" src="images/bg-pattern-card.svg" alt="bg-pattern-card.svg">
+      <img class="profile-img" src="images/image-victor.jpg" alt="profile-image">
+    </div>
 
-  1.4K
-  Photos
+    <div class="bottom-container">
+      <h3>Victor Crest <span>26</span></h3>
+      <p>London</p>
+      <hr>
+      <div class="nb-item">
+        <h3>80K</h3>
+        <h5>Followers</h5>
+      </div>
+      <div class="nb-item">
+        <h3>803K</h3>
+        <h5>Likes</h5>
+      </div>
+      <div class="nb-item">
+        <h3>1.4K</h3>
+        <h5>Photos</h5>
+      </div>
+    </div>
+  </div>
+
+  <img class="bg-pattern-bottom" src="images/bg-pattern-bottom.svg" alt="bg-pattern-bottom">
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
 </body>
 </html>
